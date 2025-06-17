@@ -1,0 +1,35 @@
+{
+  "name": "@alsharie/floosak",
+  "version": "1.0.0",
+  "description": "A TypeScript client for the Floosak Online Payment API by QualityConnect.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alsharie/floosak-payment-js.git"
+  },
+  "keywords": [
+    "floosak",
+    "yemen",
+    "payment",
+    "sdk",
+    "api"
+  ],
+  "author": "abdulrahman alsharie",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
+}
